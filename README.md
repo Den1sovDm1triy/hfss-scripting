@@ -5,11 +5,15 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+В этом проекте мы смоделиуем распространенную задачу падения плоской электромагнитной волны на проводящую сферу. Типовой порядок создания проекта в HFSS Design выглядит следующим образом.
 
-- Type some Markdown on the left
-- See HTML in the right
+- Создается геометрия для анализа. В нашем случае это сфера
+- На геометрию накладываются свойства материалов. В нашем случае мы сделаем сферу идеально проводящей
+- Определяем границу моделирования
+- Задаем частоту анализа
+- Создаем источник электромагнитной волны в проекте
+- Запускаем проект на расчет
+- Анализируем результаты расчета
 - ✨Magic ✨
 
 ## Features
