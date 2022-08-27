@@ -28,12 +28,7 @@ npm i
 node app
 ```
 
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
+После того, как пакет Ansys Electronics Desktop установлен, его можно запустить и попасть в стандартный рабочий стол, на котором можно выбрать вид Design'a для дальнейшего моделирования. Ниже показано как выглядит софт при первом запуске. Чтобы создать проект для высокочастотной симуляции (HFSS Design) кликаем ПКМ по проекту Project и выбираем Insert HFSS Design.
 
 ## Features
 
