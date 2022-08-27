@@ -17,7 +17,7 @@
 - ✨Magic ✨
 
 ## Installation | Установка ПО
-### скачать необходимое программное обеспечение
+### скачивание программного обеспечения и начало работы
 
 - Скачать и установить программное обеспечение для моделирования можно с оффициального сайта [Ansys.com](https://www.ansys.com/academic/students/ansys-electronics-desktop-student).
 - Возможно в РФ для доступа к сайту вам придется использовать VPN. Либо вы можете воспользоваться официальным сайтом партнера [Cae-expert.ru](https://cae-expert.ru/product/ansys-hfss) 
@@ -29,6 +29,12 @@ node app
 ```
 
 После того, как пакет Ansys Electronics Desktop установлен, его можно запустить и попасть в стандартный рабочий стол, на котором можно выбрать вид Design'a для дальнейшего моделирования. Ниже показано как выглядит софт при первом запуске. Чтобы создать проект для высокочастотной симуляции (HFSS Design) кликаем ПКМ по проекту Project и выбираем Insert HFSS Design.
+
+<p align="center">
+  <img src="https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/Screenshots/Fig_1.png" alt="Figure 1. Ansys Electronics Desktop (HFSS Design)"/>
+</p>
+
+После того как открывается окно 3D-Моделера можно создавать различную геометрию для моделирования. 
 
 ## Features
 
