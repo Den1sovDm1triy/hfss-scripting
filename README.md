@@ -16,6 +16,25 @@
 - Анализируем результаты расчета
 - ✨Magic ✨
 
+## Installation | Установка ПО
+### скачать необходимое программное обеспечение
+
+- Скачать и установить программное обеспечение для моделирования можно с оффициального сайта [Ansys.com](https://www.ansys.com/academic/students/ansys-electronics-desktop-student).
+- Возможно в РФ для доступа к сайту вам придется использовать VPN. Либо вы можете воспользоваться официальным сайтом партнера [Cae-expert.ru](https://cae-expert.ru/product/ansys-hfss) 
+
+```sh
+cd dillinger
+npm i
+node app
+```
+
+For production environments...
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
+
 ## Features
 
 - Import a HTML file and watch it magically convert to Markdown
@@ -57,25 +76,6 @@ to Markdown converter
 
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
-
-## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
 
 ## Plugins
 
