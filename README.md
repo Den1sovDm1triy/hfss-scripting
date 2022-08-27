@@ -51,8 +51,8 @@ node app
 </p>
 
 Теперь на сферу нужно назначить свойство проводника. Это можно сделать двумя способами:
-- назначить материал сфера (клик ПКМ по сфере и выбрать Assign Material)
-- либо назначить граничное условие идеального проводника (клик ПКМ по сфере и выбрать Assign Boundary - Perfect E и в появившемся диалоговом окне жмем "ОК")
+- назначить материал сфера (клик ПКМ по сфере и выбрать Assign Material).
+- либо назначить граничное условие идеального проводника (клик ПКМ по сфере и выбрать Assign Boundary - Perfect E и в появившемся диалоговом окне жмем "ОК").
 
 <p align="center">
   <img src="https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/Screenshots/Fig_4.png" alt="Figure 4. Ansys Electronics Desktop (HFSS Design)"/>
@@ -70,13 +70,13 @@ node app
   <img src="https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/Screenshots/Fig_6.png" alt="Figure 6. Ansys Electronics Desktop (HFSS Design)"/>
 </p>
 
-шаг 2, устанавливаем частоту 10 ГГц и нажимаем ОК
+шаг 2, устанавливаем частоту 10 ГГц и нажимаем ОК.
 
 <p align="center">
   <img src="https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/Screenshots/Fig_7.png" alt="Figure 7. Ansys Electronics Desktop (HFSS Design)"/>
 </p>
 
-После этого в проекте определяется область моделирования, обозначенная красным кубом вокруг сферы и мы можем переходить к следующему этаму. Кликаем ПКМ по вкладке Analysis и выбираем Add Solution Setup - Advanced... Так мы попадаем в меню настройки точности расчетом и частоты анализа:
+После этого в проекте определяется область моделирования, обозначенная красным кубом вокруг сферы и мы можем переходить к следующему этаму. Кликаем ПКМ по вкладке Analysis и выбираем Add Solution Setup - Advanced... Так мы попадаем в меню настройки точности расчетом и частоты анализа.
 
 <p align="center">
   <img src="https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/Screenshots/Fig_8.png" alt="Figure 8. Ansys Electronics Desktop (HFSS Design)"/>
@@ -117,7 +117,7 @@ node app
 ## Программный код на Python
 
 - Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория]
+- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
 
 ```py
 
